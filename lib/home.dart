@@ -18,8 +18,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
-      backgroundColor: Colors.purple,
-      body: Column(),
+      body: Container(
+        height: 450,
+        color: Colors.pink,
+      ),
     );
   }
 }
