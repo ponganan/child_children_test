@@ -81,6 +81,16 @@ class Home extends StatelessWidget {
                   'Text 3',
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                 ),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.cyanAccent,
+                child: Icon(
+                  Icons.emoji_food_beverage,
+                  color: Colors.yellowAccent,
+                  size: 50,
+                ),
               )
             ],
           ),
