@@ -41,46 +41,45 @@ class Home extends StatelessWidget {
 
           child: Column(
             //make this column to center
-            mainAxisAlignment: MainAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
                 height: 60,
                 width: 100,
                 color: Colors.purple,
                 //make this text to center of container
-                alignment: Alignment.center,
+                alignment: Alignment.bottomCenter,
+
                 child: Text(
                   'Text 1',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
                   ),
-                  textAlign: TextAlign.center,
+                  //textAlign: TextAlign.end,
                 ),
               ),
               Container(
                 height: 60,
                 width: 100,
                 color: Colors.green,
-                alignment: Alignment.center,
+                alignment: Alignment.topCenter,
                 child: Text(
                   'Text 2',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
                   ),
-                  textAlign: TextAlign.center,
                 ),
               ),
               Container(
                 height: 60,
                 width: 100,
                 color: Colors.yellow,
-                alignment: Alignment.center,
+                alignment: Alignment.bottomRight,
                 child: Text(
                   'Text 3',
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.center,
                 ),
               )
             ],
