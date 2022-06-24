@@ -33,6 +33,15 @@ class Home extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30),
             color: Colors.pink,
+            boxShadow: [
+              BoxShadow(
+                spreadRadius: 5,
+                blurRadius: 7,
+                color: Colors.black,
+                //change position of shadow
+                offset: Offset(3, 5),
+              )
+            ],
           ),
 
           // child: Text(
