@@ -29,7 +29,11 @@ class Home extends StatelessWidget {
           alignment: Alignment.center,
           height: 450,
           width: 250,
-          color: Colors.pink,
+          //color: Colors.pink,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(30),
+            color: Colors.pink,
+          ),
 
           // child: Text(
           //   'JOey',
@@ -42,6 +46,7 @@ class Home extends StatelessWidget {
           child: Column(
             //make this column to center
             // mainAxisAlignment: MainAxisAlignment.center,
+
             children: [
               Container(
                 height: 60,
@@ -87,8 +92,8 @@ class Home extends StatelessWidget {
                 width: 100,
                 color: Colors.cyanAccent,
                 child: Icon(
-                  Icons.emoji_food_beverage,
-                  color: Colors.yellowAccent,
+                  Icons.agriculture_rounded,
+                  color: Colors.purple,
                   size: 50,
                 ),
               )
