@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Container(
@@ -74,7 +74,7 @@ class Home extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 60,
+                height: 70,
                 width: 100,
                 color: Colors.green,
                 alignment: Alignment.topCenter,
@@ -101,7 +101,7 @@ class Home extends StatelessWidget {
                 width: 100,
                 color: Colors.cyanAccent,
                 child: Icon(
-                  Icons.agriculture_rounded,
+                  Icons.accessibility_sharp,
                   color: Colors.purple,
                   size: 50,
                 ),
