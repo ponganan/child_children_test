@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
           'Child and Children Test',
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.green,
+            color: Colors.yellow,
           ),
         ),
         centerTitle: true,
@@ -101,8 +101,8 @@ class Home extends StatelessWidget {
                 width: 100,
                 color: Colors.cyanAccent,
                 child: Icon(
-                  Icons.accessibility_sharp,
-                  color: Colors.purple,
+                  Icons.cloud_download,
+                  color: Colors.grey,
                   size: 50,
                 ),
               )
